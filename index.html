@@ -86,15 +86,13 @@
     </div>
 
     <style>
-      .skill-icon,
-      [class*="devicon-"] {
+      .skill-icon {
+        display: inline-block; /* recommended for a nicer hover effect */
         transition: transform 0.3s ease;
       }
-      
-      .skill-icon:hover,
-      [class*="devicon-"]:hover {
+
+      .skill-icon:hover {
         transform: scale(1.2);
-        color: #485fc7;  /* Bulma's primary blue color */
       }
 
       /* Additional specific styling for Devicon */
